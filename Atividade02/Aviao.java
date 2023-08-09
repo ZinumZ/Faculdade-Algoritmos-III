@@ -12,7 +12,7 @@ public class Aviao {
         System.out.println("Nome: " + tripulante1.getNome());
         System.out.println("Idade: " + tripulante1.getIdade());
         System.out.println("Equipe: " + tripulante1.getEquipe().getNome());
-        System.out.println("Descrição do departamento: " + tripulante1.getEquipe().getDescricao());
+        System.out.println("Descrição da Equipe: " + tripulante1.getEquipe().getDescricao());
 
         System.out.println("\nTripulante 2:");
         System.out.println("Nome: " + tripulante2.getNome());

@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Atividade03.Main",
+            "projectName": "Java_f1a837d7"
+        },
+        {
+            "type": "java",
             "name": "Aviao",
             "request": "launch",
             "mainClass": "Atividade02.Aviao",
