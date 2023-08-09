@@ -53,9 +53,9 @@ public class Projetor {
     //Mostrando os detalhes do projetor
     public String projetorDetalhes(){
         return "Projetor{" +
-        "Modelo='" + modelo + '\'' +
-        ", cor ='" + cor + '\'' +
-        ", brilho ='" + brilho + '\'' +
-        ", colorido =" + colorido + '}';
+        "Modelo= [" + modelo + "]" +
+        "; cor = [" + cor + "]" +
+        "; brilho = [" + brilho + "]" +
+        "; colorido = [" + colorido + ']';
     }
 }
