@@ -9,16 +9,16 @@ public class Main {
         System.out.println("Instrumento Musical qualquer:");
         System.out.println("Nome: " + instrumento.getNome());
         System.out.println("preco: " + instrumento.getPreco());
-        instrumento.emitirSom();
+        instrumento.transmitirSom();
 
         System.out.println("\nBateria:");
         System.out.println("Nome: " + bateria.getNome());
         System.out.println("Preco: " + bateria.getPreco());
-        bateria.emitirSom();
+        bateria.transmitirSom();
 
         System.out.println("\nViolão:");
         System.out.println("Nome: " + violao.getNome());
         System.out.println("Preço: " + violao.getPreco());
-        violao.emitirSom();
+        violao.transmitirSom();
     }
 }

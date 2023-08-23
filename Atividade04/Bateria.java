@@ -6,7 +6,7 @@ public class Bateria extends Instrumento {
     }
 
     @Override
-    public void emitirSom() {
+    public void transmitirSom() {
         System.out.println("A Bateria está sendo tocada.");
     }
 }

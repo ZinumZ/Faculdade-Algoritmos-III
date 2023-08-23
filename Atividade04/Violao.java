@@ -6,7 +6,7 @@ public class Violao extends Instrumento {
     }
 
     @Override
-    public void emitirSom() {
+    public void transmitirSom() {
         System.out.println("O violão está sendo tocado.");
     }
 }

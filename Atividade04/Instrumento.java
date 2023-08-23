@@ -24,7 +24,7 @@ public class Instrumento {
         this.preco = preco;
     }
 
-    public void emitirSom() {
-        System.out.println("O instrumento musical emitiu um som.");
+    public void transmitirSom() {
+        System.out.println("O instrumento musical transmitiu um som.");
     }
 }
