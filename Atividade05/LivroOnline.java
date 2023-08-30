@@ -8,6 +8,7 @@ class LivroOnline extends ProdutoOnline {
         super(nome, preco, ano);
         this.numeroPaginas = numeroPaginas;
         this.autor = autor;
+        aplicarTaxa();
     }
 
     public int getNumPaginas() {
@@ -30,7 +31,7 @@ class LivroOnline extends ProdutoOnline {
         System.out.println("Autor: " + getAutor());
         System.out.println("Ano: "+ getAno());
         System.out.println("Número de Páginas: " + getNumPaginas());
-        System.out.println("Preço: $" + getPreco());
+        System.out.println("Preço (com R$1 de taxa): $" + getPreco());
         
     }
 }

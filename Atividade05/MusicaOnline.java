@@ -6,6 +6,7 @@ class MusicaOnline extends ProdutoOnline {
     public MusicaOnline(String nome, double preco, int ano, String artista) {
         super(nome, preco, ano);
         this.artista = artista;
+        aplicarTaxa();
     }
 
     public String getArtista() {
@@ -21,6 +22,6 @@ class MusicaOnline extends ProdutoOnline {
         System.out.println("Música Digital: " + getNome());
         System.out.println("Artista: " + getArtista());
         System.out.println("Ano: "+ getAno());
-        System.out.println("Preço: $" + getPreco());
+        System.out.println("Preço (com R$1 de taxa): $" + getPreco());
     }
 }

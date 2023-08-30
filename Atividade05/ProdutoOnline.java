@@ -35,4 +35,7 @@ abstract class ProdutoOnline {
     }
 
     public abstract void detalhes();
+    public void aplicarTaxa() {
+        preco += 1.0; // Adiciona 1 real ao preço
+    }
 }
