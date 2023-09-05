@@ -34,8 +34,8 @@ abstract class ProdutoOnline {
         this.ano = ano;
     }
 
-    public abstract void detalhes();
     public void aplicarTaxa() {
         preco += 1.0; // Adiciona 1 real ao preço
     }
+    public abstract void detalhes();
 }
