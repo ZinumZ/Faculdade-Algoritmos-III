@@ -1,17 +1,35 @@
 package Atividade06;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Console Nswitch = new Console("Nintendo Switch", 1800);
-        Console playstation = new Console("PlayStation 5", 3500);
+        Scanner scanner = new Scanner(System.in);
 
-        Nswitch.ligar();
-        Nswitch.jogar();
+        System.out.print("Digite o nome do primeiro console: ");
+        String nomeConsole = scanner.nextLine();
+        System.out.print("Digite o preço: ");
+        float precoConsole = scanner.nextFloat();
 
+        Console Console1 = new Console(nomeConsole, precoConsole);
+
+        System.out.print("Digite o nome do segundo console: ");
+        scanner.nextLine(); 
+        String nomeConsole2 = scanner.nextLine();
+        System.out.print("Digite o preço: ");
+        float precoConsole2 = scanner.nextFloat();
+
+        Console Console2 = new Console(nomeConsole2, precoConsole2);
+
+        scanner.close();
         System.out.println();
         
-        playstation.ligar();
-        playstation.jogar();
-        playstation.desligar();
+        Console1.ligar();
+        Console1.jogar();
+
+        System.out.println();
+
+        Console2.ligar();
+        Console2.jogar();
+        Console2.desligar();
     }
 }
