@@ -32,14 +32,5 @@ public class Main {
             consoles[i].detalhesConsole();
       
         }
-
-        /*System.out.println();
-        
-        Console1.ligar();
-
-        System.out.println();
-        Console2.ligar();
-        Console2.detalhesConsole();
-        Console2.desligar(); */
     }
 }

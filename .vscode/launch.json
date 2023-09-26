@@ -8,6 +8,13 @@
             "type": "java",
             "name": "Main",
             "request": "launch",
+            "mainClass": "test.Main",
+            "projectName": "Java_f1a837d7"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
             "mainClass": "Atividade07.Main",
             "projectName": "Java_f1a837d7"
         },
